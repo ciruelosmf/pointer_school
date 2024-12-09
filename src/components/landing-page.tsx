@@ -9,7 +9,7 @@ export default function LandingPage() {
       <header className="p-4 flex justify-between items-center">
         <h1 className="text-3xl font-bold text-neutral-800">Pointer School</h1>
         <Button asChild className="bg-cyan-500 hover:bg-cyan-600 text-white">
-          <Link href="https://twitter.com/codefunland" target="_blank" rel="noopener noreferrer">
+          <Link href="https://x.com/PointerSchoolSL" target="_blank" rel="noopener noreferrer">
             <Twitter className="mr-2 h-4 w-4" />
             Escribinos en X (Twitter)
           </Link>
@@ -19,7 +19,7 @@ export default function LandingPage() {
       <main className="container mx-auto px-4 py-16">
         <section className="text-center mb-16">
           <h2 className="text-5xl font-extrabold text-neutral-800 mb-4">Te propongo aprender a programar!</h2>
-          <p className="text-2xl text-neutral-800 mb-8">Esta escuela tiene la intención de acercar la programación de manera sencilla a la comunidad.</p>
+          <p className="text-2xl text-neutral-800 mb-8">Esta escuela tiene la intención de acercar la programación de manera sencilla a la comunidad de San Luis.</p>
           <Button asChild size="lg" className="bg-pink-500 hover:bg-pink-600 text-white text-xl px-8 py-6 rounded-full animate-bounce">
             <Link href="emailto:ciruelosmf@gmail.com">Contactanos!</Link>
           </Button>
